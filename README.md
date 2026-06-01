@@ -1,6 +1,6 @@
 # 🪪 Gerador e Validador de CPF
 
-Projeto desenvolvido como exercício prático da Udemy, com foco em aplicar e consolidar conceitos fundamentais de Python — como **list comprehension**, iteráveis eficientes com `range()` e manipulação de strings com `.join()`.
+Projeto desenvolvido como exercício prático da Udemy sem IA, com foco em aplicar e consolidar conceitos fundamentais de Python — como **list comprehension**, iteráveis eficientes com `range()` e manipulação de strings com `.join()`.
 
 ---
 
@@ -69,7 +69,7 @@ f'{cpf[:3]}.{cpf[3:6]}.{cpf[6:9]}-{cpf[9:]}'
 Certifique-se de ter o Python 3 instalado. Em seguida, execute o arquivo pelo terminal:
 
 ```bash
-python cpf.py
+python gerador_cpf.py
 ```
 
 Siga as instruções exibidas no menu interativo.
