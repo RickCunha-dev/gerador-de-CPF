@@ -127,7 +127,7 @@ if opcao == '1':
             # Depois, essa lista será convertida em string novamente.
             cpfGerado = ''.join(d for d in lista_CPF_9digitos)
 
-            print(f'Gerando CPF...')
+            print('Gerando CPF...')
             time.sleep(1)
             # Depois a exibição será realizada com pontos e hífen.
             print(f'CPF gerado: {cpfGerado[:3]}.{cpfGerado[3:6]}.{cpfGerado[6:9]}-{cpfGerado[9:]}')
